@@ -38,7 +38,7 @@ public class FuncionarioController {
     public Funcionario adicionar(@RequestBody Funcionario funcionario ) {
         return cadastroFuncionario.salvar(funcionario);
     }
-
+    //teste
     @PutMapping("/{funcionarioId}")
     public Funcionario atualizar(@PathVariable Long funcionarioId,
                             @RequestBody Funcionario funcionario){
